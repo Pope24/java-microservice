@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 @Table(name = "books")
@@ -19,4 +20,11 @@ public class Book {
     private String name;
     private String author;
     private Boolean isReady;
+    @Version
+    private Long version = 0L;
+    public Book(String name, String author, Boolean isReady) {
+        this.name = name;
+        this.author = author;
+        this.isReady = isReady;
+    }
 }

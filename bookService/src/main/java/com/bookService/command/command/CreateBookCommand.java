@@ -16,4 +16,10 @@ public class CreateBookCommand {
     private String name;
     private String author;
     private Boolean isReady;
+
+    public CreateBookCommand(String name, String author, Boolean isReady) {
+        this.name = name;
+        this.author = author;
+        this.isReady = isReady;
+    }
 }
