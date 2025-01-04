@@ -10,10 +10,7 @@ import org.axonframework.modelling.command.TargetAggregateIdentifier;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreateBookCommand {
+public class DeleteBookCommand {
     @TargetAggregateIdentifier
     private String id;
-    private String name;
-    private String author;
-    private Boolean isReady;
 }

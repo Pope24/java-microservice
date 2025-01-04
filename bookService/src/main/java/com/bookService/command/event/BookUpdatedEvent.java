@@ -1,20 +1,15 @@
-package com.bookService.command.data;
+package com.bookService.command.event;
 
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.hibernate.annotations.GenericGenerator;
 
-@Entity
-@Table(name = "books")
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
-public class Book {
-    @Id
+@AllArgsConstructor
+public class BookUpdatedEvent {
     private String id;
     private String name;
     private String author;

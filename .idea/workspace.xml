@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eceaadf-59e0-4004-9c5d-fc2414d8129f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/aggregate/BookAggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/data/IBookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/event/BookCreatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/event/BookEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/command/DeleteBookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/command/UpdateBookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/event/BookDeletedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/event/BookUpdatedEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/aggregate/BookAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/aggregate/BookAggregate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/command/CreateBookCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/command/CreateBookCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/controller/BookCommandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/controller/BookCommandController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/data/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/data/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/event/BookEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/event/BookEventHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -111,7 +111,8 @@
       <workItem from="1735256639395" duration="5819000" />
       <workItem from="1735267456309" duration="6494000" />
       <workItem from="1735430016919" duration="15299000" />
-      <workItem from="1735523929384" duration="884000" />
+      <workItem from="1735523929384" duration="2057000" />
+      <workItem from="1735951021856" duration="5814000" />
     </task>
     <servers />
   </component>
@@ -122,9 +123,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/aggregate/BookAggregate.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/controller/BookCommandController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
