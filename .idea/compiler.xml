@@ -18,13 +18,14 @@
         </processorPath>
         <module name="bookService" />
       </profile>
-      <profile name="Annotation profile for commonService" enabled="true">
+      <profile name="Annotation profile for employeeService" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
+        <module name="employeeService" />
         <module name="commonService" />
       </profile>
     </annotationProcessing>
@@ -32,6 +33,7 @@
       <module name="bookService" target="17" />
       <module name="commonService" target="17" />
       <module name="discoveryServer" target="17" />
+      <module name="employeeService" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -39,6 +41,7 @@
       <module name="bookService" options="-parameters" />
       <module name="commonService" options="-parameters" />
       <module name="discoveryServer" options="-parameters" />
+      <module name="employeeService" options="-parameters" />
     </option>
   </component>
 </project>
