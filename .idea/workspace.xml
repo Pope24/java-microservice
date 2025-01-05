@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eceaadf-59e0-4004-9c5d-fc2414d8129f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_3_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonService/src/main/java/com/commonService/advice/ExceptionAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonService/src/main/java/com/commonService/model/ErrorMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/BookServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/BookServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/query/projection/BookProjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/query/projection/BookProjection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/controller/BookCommandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/controller/BookCommandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/data/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/data/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/model/BookRequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookService/src/main/java/com/bookService/command/model/BookRequestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonService/src/main/java/com/commonService/advice/ExceptionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/commonService/src/main/java/com/commonService/advice/ExceptionAdvice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,31 +48,31 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/SS/java-microservice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.5416667",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "terminal",
-    "spring.configuration.checksum": "b8575deac5fdf752e0353aeb64e783aa",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/SS/java-microservice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5416667&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;3ffcc0b3cfe7f02c3a86019df44746af&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -121,7 +116,9 @@
       <workItem from="1735430016919" duration="15299000" />
       <workItem from="1735523929384" duration="2057000" />
       <workItem from="1735951021856" duration="9890000" />
-      <workItem from="1735975179239" duration="8648000" />
+      <workItem from="1735975179239" duration="8885000" />
+      <workItem from="1735992723099" duration="625000" />
+      <workItem from="1736038593383" duration="2740000" />
     </task>
     <servers />
   </component>
