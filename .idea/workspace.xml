@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eceaadf-59e0-4004-9c5d-fc2414d8129f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/command/aggregate/EmployeeAggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/command/command/CreateEmployeeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/command/command/DeleteEmployeeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/command/command/UpdateEmployeeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/command/controller/EmployeeCommandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/command/data/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/command/data/IEmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/command/event/EmployeeCreatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/command/event/EmployeeDeletedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/command/event/EmployeeEventHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/command/event/EmployeeUpdatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/command/model/EmployeeRequestModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_36.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/query/controller/EmployeeQueryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/query/model/EmployeeResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/query/projection/EmployeeProjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/query/queries/GetAllEmployeeQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/query/queries/GetDetailEmployeeQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employeeService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employeeService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/EmployeeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/EmployeeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/command/data/IEmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/employeeService/src/main/java/com/employeeService/command/data/IEmployeeRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +70,7 @@
     "project.structure.side.proportion": "0.5416667",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "terminal",
-    "spring.configuration.checksum": "3ffcc0b3cfe7f02c3a86019df44746af",
+    "spring.configuration.checksum": "eeb105fd59db2ba261a1cb79415ec4cb",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -136,7 +126,8 @@
       <workItem from="1735951021856" duration="9890000" />
       <workItem from="1735975179239" duration="8885000" />
       <workItem from="1735992723099" duration="625000" />
-      <workItem from="1736038593383" duration="11676000" />
+      <workItem from="1736038593383" duration="11912000" />
+      <workItem from="1736062588406" duration="2736000" />
     </task>
     <servers />
   </component>
